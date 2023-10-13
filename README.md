@@ -2,7 +2,7 @@
 
 My personal computer dotfiles (SwayFX branch)
 
-![20231008-142549](https://github.com/PedroG14/dotfiles/assets/52004811/2b2b44fa-d645-41a2-8765-405f8f8ab434)
+![20231013-114724](https://github.com/PedroG14/dotfiles/assets/52004811/4c05ab2f-822c-42a3-9caf-81df3fb28b56)
 
 ## Content
 
