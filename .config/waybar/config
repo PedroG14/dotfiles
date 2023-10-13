@@ -81,8 +81,8 @@
 	"idle_inhibitor": {
 		"format": "{icon}",
 		"format-icons": {
-			"activated": "",
-			"deactivated": ""
+			"activated": "󰈈",
+			"deactivated": "󰈉"
 		}
 	},
 	"tray": {
@@ -205,6 +205,6 @@
 	"custom/power": {
 		"format": "  ",
 		"tooltip": false,
-		"on-click": "rofi -show p -modi p:'rofi-power-menu --symbols-font \"Symbols Nerd Font Mono \"' -font 'JetBrains Mono Medium 11' -theme gruvbox-dark -theme-str 'window {width: 12em;} listview {lines: 6;}'"
+		"on-click": "rofi -show p -modi p:'rofi-power-menu --symbols-font \"Symbols Nerd Font Mono \"' -font 'JetBrains Mono Medium 11' -theme gruvbox-dark -theme-str 'window {width: 12em; border-radius: 8px;} listview {lines: 6;}'"
 	}
 }

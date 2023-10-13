@@ -13,7 +13,9 @@
 
 window#waybar {
 	color: #ebdbb2;
-	background-color: rgba(60, 56, 54, 0.87);
+	background-color: #3c3836;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
 }
 
 label:focus { 
@@ -26,8 +28,7 @@ tooltip {
 	background-color: #32302f;
 
 	border: 1px solid #a89984;
-	border-radius: 2px;
-	padding: 2px 2px;
+	border-radius: 4px;
 }
 
 button {
@@ -47,7 +48,7 @@ button:hover {
 .modules-left,
 .modules-center,
 .modules-right {
-	padding: 2px 0;
+	padding: .25em 0;
 }
 
 /* Modules - Left */
@@ -69,7 +70,7 @@ button:hover {
 	margin: 2px 0;
 	margin-right: .8em;
 
-	background-color: rgba(102, 92, 84, 0.87);
+	background-color: #665c54;
 
 	border: 1px solid #a89984;
 	border-radius: 4px;
@@ -79,7 +80,7 @@ button:hover {
 	padding: 0 .425em;
 
 	color: #ebdbb2;
-	background-color: rgba(60, 56, 54, 0.87);
+	background-color: #3c3836;
 	border-radius: 0;
 }
 
@@ -98,7 +99,7 @@ button:hover {
 }
 
 #workspaces button.focused {
-	background-color: rgba(102, 92, 84, 0.87);
+	background-color: #665c54;
 }
 
 #workspaces button.urgent {
@@ -146,6 +147,7 @@ window#waybar.solo {
 #battery,
 #cpu,
 #clock,
+#idle_inhibitor,
 #memory,
 #disk,
 #temperature,
@@ -153,7 +155,6 @@ window#waybar.solo {
 #network,
 #pulseaudio,
 #wireplumber,
-#idle_inhibitor,
 #mpd,
 #language,
 #keyboard-state,
@@ -198,7 +199,7 @@ window#waybar.solo {
 
 #tray > .needs-attention {
 	-gtk-icon-effect: highlight;
-	background-color: rgba(251, 73, 52, 0.87);
+	background-color: #fb4934;
 }
 
 #custom-media {
