@@ -9,7 +9,7 @@ blur enable
 blur_xray disable
 
 # Corner radius
-corner_radius 8
+corner_radius 4
 
 # Window shadows
 shadows disable

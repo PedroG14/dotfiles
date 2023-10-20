@@ -35,10 +35,10 @@ output * bg $HOME/.local/share/wallpapers/wallpaper.png fill
 #
 # Example configuration:
 #
-exec swayidle -w\
-timeout 300 'chayang && swaylock -f -c 000000'\
-timeout 600 'swaymsg "output * power off"'\
-resume 'swaymsg "output * power on"'\
+exec swayidle -w \
+timeout 300 'chayang && swaylock -f -c 000000' \
+timeout 600 'swaymsg "output * dpms off"' \
+resume 'swaymsg "output * dpms on"' \
 before-sleep 'chayang && swaylock -f -c 000000'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
@@ -61,8 +61,7 @@ before-sleep 'chayang && swaylock -f -c 000000'
 
 # Keyboard
 input type:keyboard {
-	xkb_layout us
-	xkb_variant intl
+	xkb_layout br
 }
 
 # Mouse
