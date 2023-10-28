@@ -15,6 +15,8 @@ set termguicolors
 set nobackup
 set nowritebackup
 set signcolumn=number
+set fileencoding=utf-8
+set foldmethod=marker
 
 " PLUGINS
 call plug#begin()
