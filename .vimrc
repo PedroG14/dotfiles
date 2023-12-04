@@ -39,6 +39,7 @@ set t_RV=
 " Plugins
 call plug#begin()
 
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'gruvbox-community/gruvbox'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
@@ -59,13 +60,13 @@ Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
-colorscheme gruvbox
+colorscheme catppuccin_mocha
 
 " Gruvbox
 let g:gruvbox_italic = 1
 
 " Airline
-let g:airline_theme = 'gruvbox'
+let g:airline_theme = 'catppuccin_mocha'
 let g:airline_powerline_fonts = 1
 let g:airline_extensions = [ 'ale', 'ctrlp', 'fzf', 'ycm', 'tabline', 'hunks' ]
 

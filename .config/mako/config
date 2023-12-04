@@ -1,10 +1,15 @@
 font=FiraCodeMedium 12
-background-color=#282828
-text-color=#EBDBB2
+
+background-color=#1E1E2E
+text-color=#CDD6F4
 width=384
 height=128
 padding=8
 border-size=2
-border-color=#83A598
+border-color=#B4BEFE
+progress-color=over #313244
+
+[urgency=high]
+border-color=#FAB387
 
 default-timeout=5000
